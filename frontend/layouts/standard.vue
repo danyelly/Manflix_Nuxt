@@ -6,7 +6,7 @@
       <!-- <a v-on:click="$router.push('/about')">About</a> -->
       <button
         class="pi pi-bars btnHamburger"
-        v-on:click="showSidebar = showSidebar ? false : true"
+        v-on:click="showSidebar = (showSidebar === true)? false: true"
       />      
       <button class="atavarbtn" v-on:click="popUpInfo = (popUpInfo === true)? false: true">
           <Avatar 

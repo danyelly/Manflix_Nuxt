@@ -8,10 +8,10 @@
             <p class="h2F">Sign up now</p>
             <InputText placeholder="Full name" v-model="user.fullName"/>
             <InputText placeholder="User" v-model="user.username"/>
-            <InputText placeholder="Email" v-model="user.email"/>
+            <InputText type="email" placeholder="Email" v-model="user.email"/>
             <InputText placeholder="Phone" v-model="user.phone"/>
-            <InputText placeholder="Password" v-model="user.password"/>
-            <InputText placeholder="Confirm Password" v-model="user.passConfirm"/>
+            <InputText type="password" placeholder="Password" v-model="user.password"/>
+            <InputText type="password" placeholder="Confirm Password" v-model="user.passConfirm"/>
             <div class="btnMenu">
               <Button class="teste" width="100px" label="Sign Up" v-on:click="sendRegister()"/>
             </div>

@@ -25,3 +25,6 @@ urlpatterns = [
     path('api/v1/', include('djoser.urls')),
     path('api/v1/auth/', include('djoser.urls.authtoken'))
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+# + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+# com ele a partir da url eu posso acessar a foto do backend
