@@ -1,0 +1,114 @@
+ .carousel{
+    height: 250px;
+    width: 97%;
+    position: relative;
+    background-color:black;
+    align-items: center;
+}
+.carousel .switchRight{
+    color: white;
+    font-weight: bold;
+    height:100%;
+    width:35px;
+    line-height:250px;
+    font-size:25px;
+    text-align:center;
+    background-color:rgba(0,0,0,.75);
+    font-family: sans-serif;
+    top:0;
+    z-index: 3;
+}
+.carousel .switchLeft{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    height:100%;
+    width:30px;
+    line-height:250px;
+    font-size:25px;
+    text-align:center;
+    background-color:rgba(0,0,0,.75);
+    font-family: sans-serif;
+    top:0;
+    z-index: 3;
+}
+
+.carousel .switchRight{
+    position: absolute;
+    right: -35px;
+}
+.carouselbox{
+    height:100%;
+    width: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    position: absolute;    
+}
+
+.carouselbox img{
+    min-width: 250px;
+    max-width: 120px;
+    height: 160px;
+    background-size: cover;
+    background-color: lightgreen;
+    margin: 5px 10px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    z-index: 2;
+}
+
+.carousel img:hover{
+    transform: scale(1.4);
+    z-index: 5;
+    background-color:yellow;
+    border: 2px solid white;
+}
+
+
+.imgModal{
+    height:300px;
+    width:550px;
+}
+.p-dialog .p-dialog-content{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:yellow;
+    flex-direction: column;
+    margin-bottom:50px;
+}
+.modalImg{
+    background-color: rgba(0,0,0,.75);
+    width:50px;
+    margin-bottom:50px;
+}
+.divModal{
+    top:0px;
+    background-color:green;
+    width:100%;
+}
+.descricao{
+    width:50%;
+    padding-top: 100px;
+    
+}
+.divDescricao{
+    margin-top:50px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+i{
+    padding-top:50px;
+    display:flex;
+    justify-content:space-around;
+    margin-bottom:50px;
+}
+.pi pi-star{
+    background-color:yellow;
+}

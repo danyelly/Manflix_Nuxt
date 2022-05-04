@@ -1,0 +1,50 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "C:\\\\Users\\\\ctim\\\\Desktop\\\\nuxt-fullstack-master\\\\frontend\\\\pages\\\\about\\\\index.vue",
+    "chunkName": "pages/about/index"
+  },
+  {
+    "name": "cards",
+    "path": "/cards",
+    "component": "C:\\\\Users\\\\ctim\\\\Desktop\\\\nuxt-fullstack-master\\\\frontend\\\\pages\\\\cards\\\\index.js",
+    "chunkName": "pages/cards/index"
+  },
+  {
+    "name": "help",
+    "path": "/help",
+    "component": "C:\\\\Users\\\\ctim\\\\Desktop\\\\nuxt-fullstack-master\\\\frontend\\\\pages\\\\help\\\\index.vue",
+    "chunkName": "pages/help/index"
+  },
+  {
+    "name": "home",
+    "path": "/home",
+    "component": "C:\\\\Users\\\\ctim\\\\Desktop\\\\nuxt-fullstack-master\\\\frontend\\\\pages\\\\home\\\\index.vue",
+    "chunkName": "pages/home/index"
+  },
+  {
+    "name": "movieRegister",
+    "path": "/movieRegister",
+    "component": "C:\\\\Users\\\\ctim\\\\Desktop\\\\nuxt-fullstack-master\\\\frontend\\\\pages\\\\movieRegister\\\\index.vue",
+    "chunkName": "pages/movieRegister/index"
+  },
+  {
+    "name": "register",
+    "path": "/register",
+    "component": "C:\\\\Users\\\\ctim\\\\Desktop\\\\nuxt-fullstack-master\\\\frontend\\\\pages\\\\register\\\\index.vue",
+    "chunkName": "pages/register/index"
+  },
+  {
+    "name": "search",
+    "path": "/search",
+    "component": "C:\\\\Users\\\\ctim\\\\Desktop\\\\nuxt-fullstack-master\\\\frontend\\\\pages\\\\search\\\\index.vue",
+    "chunkName": "pages/search/index"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\ctim\\\\Desktop\\\\nuxt-fullstack-master\\\\frontend\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]
